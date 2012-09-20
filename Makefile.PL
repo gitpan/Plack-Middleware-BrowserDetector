@@ -24,10 +24,10 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Plack::Middleware::BrowserDetector",
   "PREREQ_PM" => {
-    "HTTP::BrowseDetect" => 0,
+    "HTTP::BrowserDetect" => 0,
     "Plack" => 0
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }
