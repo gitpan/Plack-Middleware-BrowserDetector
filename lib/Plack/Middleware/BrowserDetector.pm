@@ -27,15 +27,16 @@ Plack::Middleware::BrowserDetector - Plack middleware to identify browsers
     $app;
   }
 
-  # in your app
+  # and after that in your aplication
   my $browser = $env->{'BrowserDetector.browser'}; # HTTP::BrowserDetect object
 
   # check if browser appears to be mobile device
   if ($browser->mobile) {
-    # ...
   }
 
-  # check if browser appears to be chrome device
+  # check if browser appears to be chrome
+  if ($browser->chrome) {
+  }
 
 =head1 DESCRIPTION
 
