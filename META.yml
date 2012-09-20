@@ -21,4 +21,4 @@ requires:
 resources:
   bugtracker: https://github.com/dpetrov/Plack-Middleware-BrowserDetector/issues
   repository: git://github.com/dpetrov/Plack-Middleware-BrowserDetector.git
-version: 0.02
+version: 0.03
